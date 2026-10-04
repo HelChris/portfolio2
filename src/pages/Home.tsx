@@ -9,7 +9,7 @@ function Home() {
 				<p className="text-body">Welcome to my portfolio.</p>
 			</section>
 
-			<section id="projects" className="mb-8 bg-mint h-100 p-4">
+			<section id="projects" className="mb-8 bg-mint min-h-100 p-4">
 				<h2 className="text-h1 mb-4">Projects</h2>
 				<ul className="mx-auto grid max-w-6xl gap-8 px-4 lg:grid-cols-3">
 					{projects.map((project) => (
@@ -24,7 +24,7 @@ function Home() {
 				</ul>
 			</section>
 
-			<section id="contact" className="mb-8 h-80 m-4">
+			<section id="contact" className="mb-8 min-h-80 m-4">
 				<h2 className="text-h1 mb-4">Contact</h2>
 				<p>Get in touch about a project or collaboration.</p>
 			</section>
