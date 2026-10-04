@@ -1,0 +1,39 @@
+@theme {
+    /* Colors */
+    --color-teal-deep: #124f4b;
+    --color-teal-bright: #2bbbbf;
+    --color-teal-soft: #7fcfd2;
+    --color-mint: #cfe6dc;
+    --color-peach: #f8d5c8;
+    --color-cloud: #f6eeee;
+    --color-gold: #b07a24;
+    --color-gold-text: #8f5f14;
+
+
+    /* Typography */
+    --font-heading: 'Fraunces', Georgia, serif;
+    --font-body: 'DM Sans', system-ui, sans-serif;
+
+  /* Headings (Fraunces) */
+  --text-display: 3rem;      /* 48px, hero */
+  --text-display--line-height: 1.1;
+  --text-h1: 2.5rem;         /* 40px, page / section titles */
+  --text-h1--line-height: 1.1;
+  --text-h2: 1.625rem;       /* 26px */
+  --text-h2--line-height: 1.1;
+  --text-h3: 1.375rem;       /* 22px, card titles */
+  --text-h3--line-height: 1.1;
+  --text-h4: 1.125rem;       /* 18px */
+  --text-h4--line-height: 1.1;
+
+  /* Body and UI (DM Sans) */
+  --text-label: 1rem;        /* 16px, button / form labels */
+  --text-label--line-height: 1.1;
+  --text-body: 1.25rem;         /* 20px */
+  --text-body--line-height: 1.6;
+  --text-sm: 0.875rem;       /* 14px */
+  --text-sm--line-height: 1.6;
+  --text-xs: 0.75rem;        /* 12px */
+  --text-xs--line-height: 1.6;
+
+}
