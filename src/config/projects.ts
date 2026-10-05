@@ -7,6 +7,8 @@ export type Project = {
 	title: string;
 	to: (typeof routes)[keyof typeof routes];
 	description: string;
+    image?: string;
+    imageAlt?: string;
 };
 
 export const projects = [
