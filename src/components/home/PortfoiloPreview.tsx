@@ -12,7 +12,7 @@ type PortfolioPreviewProps = {
 export function PortfolioPreview({ title, description, to, image, imageAlt = '' }: PortfolioPreviewProps) {
 	return (
 		<Link
-			className="group block overflow-hidden rounded-2xl bg-white text-inherit no-underline shadow-md transition-shadow duration-200 hover:shadow-lg"
+			className="portfolio-card group block overflow-hidden rounded-2xl text-inherit no-underline shadow-md transition-shadow duration-200 hover:shadow-lg"
 			to={to}
 		>
 			<article>

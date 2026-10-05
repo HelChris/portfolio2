@@ -14,6 +14,9 @@
     --color-surface: var(--color-cloud);
     --color-text: var(--color-gold-text);
     --color-link: var(--color-teal-deep);
+    --color-button-text: var(--color-cloud);
+    --color-projects-background: var(--color-mint);
+    --color-card-background: #ffffff;
 
 
     /* Typography */
@@ -48,7 +51,7 @@
   :root {
     color-scheme: dark;
     --color-teal-deep: #d9f3ef;
-    --color-teal-bright: #71d9d0;
+    --color-teal-bright: #1f6f6a;
     --color-teal-soft: #245452;
     --color-cloud: #162321;
     --color-gold: #f1c978;
@@ -57,5 +60,8 @@
     --color-surface: #1d302d;
     --color-text: #f1d99d;
     --color-link: #d9f3ef;
+    --color-button-text: var(--color-teal-deep);
+    --color-projects-background: var(--color-teal-soft);
+    --color-card-background: var(--color-background);
   }
 }
