@@ -23,7 +23,7 @@ export function PortfolioPreview({ title, description, to, image, imageAlt = '' 
 						width="800"
 						height="600"
 						loading="lazy"
-						className="aspect-[4/3] w-full object-cover"
+						className="aspect-4/3 w-full object-cover"
 					/>
 				)}
 				<div className="p-6">
