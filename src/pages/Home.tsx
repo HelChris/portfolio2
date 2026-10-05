@@ -11,13 +11,15 @@ function Home() {
 
 			<section id="projects" className="mb-8 bg-mint min-h-100 p-4">
 				<h2 className="text-h1 mb-4">Projects</h2>
-				<ul className="mx-auto grid max-w-6xl gap-8 px-4 lg:grid-cols-3">
+				<ul className="mx-auto grid max-w-6xl gap-8 px-4 lg:grid-cols-3 mb-4">
 					{projects.map((project) => (
 						<li key={project.to}>
 							<PortfolioPreview
 								title={project.title}
 								description={project.description}
 								to={project.to}
+                                image={project.image}
+                                imageAlt={project.imageAlt}
 							/>
 						</li>
 					))}
