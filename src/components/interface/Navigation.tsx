@@ -13,7 +13,7 @@ export function Navigation({ orientation = 'horizontal', onNavigate, ariaLabel }
         : 'flex flex-col gap-2';
 
     return (
-        <nav aria-label={ariaLabel}>
+        <nav aria-label={ariaLabel} id="top-navigation">
             <ul className={listClasses}>
                 {navigation.map(({ label, to, end }) => (
                     <li key={to}>
