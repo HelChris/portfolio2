@@ -9,6 +9,12 @@
     --color-gold: #b07a24;
     --color-gold-text: #8f5f14;
 
+    /* Semantic colors */
+    --color-background: var(--color-cloud);
+    --color-surface: var(--color-cloud);
+    --color-text: var(--color-gold-text);
+    --color-link: var(--color-teal-deep);
+
 
     /* Typography */
     --font-heading: 'Fraunces', Georgia, serif;
@@ -36,4 +42,20 @@
   --text-xs: 0.75rem;        /* 12px */
   --text-xs--line-height: 1.6;
 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-teal-deep: #d9f3ef;
+    --color-teal-bright: #71d9d0;
+    --color-teal-soft: #245452;
+    --color-cloud: #162321;
+    --color-gold: #f1c978;
+    --color-gold-text: #f1d99d;
+    --color-background: #101a19;
+    --color-surface: #1d302d;
+    --color-text: #f1d99d;
+    --color-link: #d9f3ef;
+  }
 }

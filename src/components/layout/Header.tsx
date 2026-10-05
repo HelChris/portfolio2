@@ -8,7 +8,7 @@ export function Header() {
 				className="font-heading text-xl font-extrabold tracking-wide text-teal-deep active:underline outline-offset-4 focus-visible:outline-3 focus-visible:outline-gold"
 				to="/"
 			>
-				HelChris
+				-HelChris-
 			</Link>
 			<Navigation ariaLabel="Main navigation" />
 		</header>
