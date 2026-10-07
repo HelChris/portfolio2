@@ -27,7 +27,7 @@ export function PortfolioPreview({ title, description, to, image, imageAlt = '' 
 					/>
 				)}
 				<div className="p-6">
-					<h3 className="text-body font-normal">
+					<h3 className="text-h3">
 						{title}
 					</h3>
 					<p className="mt-2 text-body">{description}</p>
