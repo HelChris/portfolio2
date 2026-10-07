@@ -1,7 +1,7 @@
 @theme {
     /* Colors */
     --color-teal-deep: #124f4b;
-    --color-teal-bright: #2bbbbf;
+    --color-teal-bright: #2bbfbf;
     --color-teal-soft: #7fcfd2;
     --color-mint: #cfe6dc;
     --color-peach: #f8d5c8;
@@ -34,6 +34,10 @@
   --text-h3--line-height: 1.1;
   --text-h4: 1.125rem;       /* 18px */
   --text-h4--line-height: 1.1;
+  --text-h5: 1rem;           /* 16px */
+  --text-h5--line-height: 1.1;
+  --text-h6: 0.875rem;       /* 14px */
+  --text-h6--line-height: 1.1;
 
   /* Body and UI (DM Sans) */
   --text-label: 1rem;        /* 16px, button / form labels */
