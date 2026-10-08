@@ -23,7 +23,7 @@ const contactLinks: ContactLink[] = [
   {
     label: 'GitHub',
     href: 'https://github.com/helchris',
-    icon: 'https://img.icons8.com/?size=100&id=62856&format=png&color=000000',
+    icon: 'https://img.icons8.com/?size=100&id=118557&format=png&color=000000',
   },
 ];
 
