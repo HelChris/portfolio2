@@ -16,7 +16,7 @@ function Home() {
 						<li key={project.to}>
 							<PortfolioPreview
 								title={project.title}
-								description={project.description}
+								description={project.shortDescription}
 								to={project.to}
                                 image={project.image}
                                 imageAlt={project.imageAlt}

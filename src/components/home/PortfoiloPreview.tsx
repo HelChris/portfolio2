@@ -12,10 +12,10 @@ type PortfolioPreviewProps = {
 export function PortfolioPreview({ title, description, to, image, imageAlt = '' }: PortfolioPreviewProps) {
 	return (
 		<Link
-			className="portfolio-card group block overflow-hidden rounded-2xl text-inherit no-underline shadow-md transition-shadow duration-200 hover:shadow-lg"
+			className="portfolio-card group block h-full overflow-hidden rounded-2xl text-inherit no-underline shadow-md transition-shadow duration-200 hover:shadow-lg"
 			to={to}
 		>
-			<article>
+			<article className="flex h-full flex-col">
 				{image && (
 					<img
 						src={image}
@@ -26,7 +26,7 @@ export function PortfolioPreview({ title, description, to, image, imageAlt = '' 
 						className="aspect-4/3 w-full object-cover"
 					/>
 				)}
-				<div className="p-6">
+				<div className="flex flex-1 flex-col p-6">
 					<h3 className="text-h3">
 						{title}
 					</h3>
