@@ -12,12 +12,26 @@ export default function Project() {
 
 	return (
 		<article className="mx-auto max-w-4xl px-6 py-12 md:px-10">
-			<header className="mb-10">
+			<header className="mb-2">
 				<div className="flex items-center gap-4 justify-between">
 				<h1 className="text-h1">{project.title}</h1>
 				<ShareLink />
 				</div>
-				<p className=" max-w-2xl text-body mb-2">{project.description}</p>
+				<ul className="mb-6 mt-4 flex flex-wrap gap-2" aria-label={`${project.title} technologies`}>
+					{project.technologies.map((technology) => (
+						<li key={technology} className="rounded-full border border-teal-bright bg-transparent px-3 py-1 text-sm text-text">
+							{technology}
+						</li>
+					))}
+				</ul>
+				<p className="max-w-2xl text-body">{project.description}</p>
+				<nav aria-label={`${project.title} links`} className="flex gap-4 mb-2">
+					{project.links.map((link) => (
+						<a key={link.label} href={link.href} target="_blank" rel="noreferrer" className="button">
+							{link.label}
+						</a>
+					))}
+				</nav>
 				<figure>
 				<img
 					src={project.image}
@@ -28,20 +42,10 @@ export default function Project() {
 				/>
 				<figcaption className="my-2 text-sm">{project.imageCaption}</figcaption>
 				</figure>
-				<div className="flex flex-wrap gap-4 items-center ">
-				<nav aria-label={`${project.title} links`} className="flex gap-4">
-					{project.links.map((link) => (
-						<a key={link.label} href={link.href} target="_blank" rel="noreferrer">
-							{link.label}
-						</a>
-					))}
-				</nav>
-
-			</div>
 			</header>
-			<section className="mt-12" aria-labelledby="project-details">
-				<h2 id="project-details">About the project</h2>
-				<p className="mt-4 max-w-3xl">{project.content}</p>
+			<section aria-labelledby="project-details">
+				<h2 id="project-details" className="mb-2">About the project</h2>
+				<p className="max-w-3xl">{project.content}</p>
 			</section>
 		</article>
 	);

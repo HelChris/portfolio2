@@ -10,7 +10,15 @@ export function ShareLink() {
 
 	return (
 		<button className="button" type="button" onClick={copyPageLink}>
-			{copied ? 'Link copied' : 'Copy page link'}
+			{copied ? 'Url copied' : 'Share'}
+			<img
+				src="https://img.icons8.com/ios-filled/50/124f4b/copy-link.png"
+				alt=""
+				width="18"
+				height="18"
+				aria-hidden="true"
+				className="ml-2"
+			/>
 		</button>
 	);
 }
