@@ -29,10 +29,10 @@ const contactLinks: ContactLink[] = [
 
 export function Contact() {
   return (
-    <section id="contact" className="mb-8 min-h-80 m-4 md:flex md:flex-col md:items-center md:text-center" aria-labelledby="contact-heading">
+    <section id="contact" className="m-4 mb-8 flex min-h-80 flex-col items-center text-center" aria-labelledby="contact-heading">
       <h2 id="contact-heading" className="text-h1 mb-4">Contact</h2>
       <p className="text-body">Get in touch about a project or collaboration.</p>
-      <nav aria-label="Contact links" className="mt-6 flex flex-wrap gap-4">
+      <nav aria-label="Contact links" className="mt-6 flex flex-wrap justify-center gap-4">
         {contactLinks.map(({ label, href, icon }) => (
           <a
             key={label}
