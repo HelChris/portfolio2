@@ -18,13 +18,19 @@ const contactLinks: ContactLink[] = [
   {
     label: 'Discord',
     href: 'https://discord.com/users/792141193718923324',
-    icon: 'https://img.icons8.com/?size=100&id=u9hrfH9TOa9D&format=png&color=000000',
+    icon: 'https://img.icons8.com/?size=100&id=114902&format=png&color=000000',
   },
   {
     label: 'GitHub',
     href: 'https://github.com/helchris',
     icon: 'https://img.icons8.com/?size=100&id=118557&format=png&color=000000',
   },
+  {
+    label: 'HomePage',
+    href: 'https://hch.rocks',
+    // icon: 'https://img.icons8.com/?size=100&id=63911&format=png&color=000000'
+    icon: 'https://img.icons8.com/?size=100&id=111139&format=png&color=000000'
+  }
 ];
 
 export function Contact() {
