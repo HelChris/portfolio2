@@ -1,16 +1,15 @@
 import { PortfolioPreview } from '../components/home/PortfoiloPreview';
-import { Contact } from '../components/home/Contact';
+import { AboutMe } from '../components/home/AboutMe';
+import { LanguagesTools } from '../components/home/LanguagesTools';
 import { projects } from '../config/projects';
+import { Contact } from '../components/home/Contact';
+
 
 function Home() {
 	return (
 		<>
-			<section id="about" className="mb-8 h-80 m-4">
-				<h1 className="text-h1">About me</h1> 
-				<p className="text-body">Welcome to my portfolio.</p>
-			</section>
-
-			<section id="projects" className="projects-section mb-8 min-h-100 p-4">
+			<AboutMe />
+			<section id="projects" className="projects-section min-h-100 p-4">
 				<h2 className="text-h1 mb-4">Projects</h2>
 				<ul className="mx-auto grid max-w-6xl gap-8 px-4 lg:grid-cols-3 mb-4">
 					{projects.map((project) => (
@@ -26,6 +25,8 @@ function Home() {
 					))}
 				</ul>
 			</section>
+
+			<LanguagesTools />
 
 			<Contact />
 		</>
