@@ -4,17 +4,15 @@
     --color-teal-bright: #2bbfbf;
     --color-teal-soft: #7fcfd2;
     --color-mint: #cfe6dc;
-    --color-peach: #f8d5c8;
     --color-cloud: #f6eeee;
-    --color-gold: #b07a24;
-    --color-gold-text: #8f5f14;
+    --color-ink: #0F141C;
 
     /* Semantic colors */
     --color-background: var(--color-cloud);
     --color-surface: var(--color-cloud);
-    --color-text: var(--color-gold-text);
+    --color-text: var(--color-ink);
+    --color-focus: var(--color-ink);
     --color-link: var(--color-teal-deep);
-    --color-button-text: var(--color-cloud);
     --color-projects-background: var(--color-mint);
     --color-card-background: #ffffff;
 
@@ -55,17 +53,14 @@
   :root {
     color-scheme: dark;
     --color-teal-deep: #d9f3ef;
-    --color-teal-bright: #1f6f6a;
     --color-teal-soft: #245452;
-    --color-cloud: #162321;
-    --color-gold: #f1c978;
-    --color-gold-text: #f1d99d;
-    --color-background: #101a19;
-    --color-surface: #1d302d;
-    --color-text: #f1d99d;
-    --color-link: #d9f3ef;
-    --color-button-text: var(--color-teal-deep);
-    --color-projects-background: var(--color-teal-soft);
-    --color-card-background: var(--color-background);
+    --color-ink: #f6eeee;
+    --color-background: #0F141C;
+    --color-surface: #162321;
+    --color-text: var(--color-ink);
+    --color-focus: var(--color-teal-bright);
+    --color-link: var(--color-teal-soft);
+    --color-projects-background: #245452;
+    --color-card-background: #162321;
   }
 }

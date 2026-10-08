@@ -46,7 +46,7 @@ export function Contact() {
             target="_blank"
             rel="noreferrer"
             aria-label={`Visit my ${label} profile`}
-            className="inline-flex rounded-lg focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-gold"
+            className="inline-flex rounded-lg focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-focus"
           >
             <img src={icon} alt={`${label} profile`} width="96" height="96" />
           </a>

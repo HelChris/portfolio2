@@ -63,7 +63,7 @@ export function Navigation({ orientation = 'horizontal', onNavigate, ariaLabel }
                                 [
                                     'inline-flex min-h-10 rounded-full items-center px-4 py-2 font-bold text-teal-deep no-underline transition-colors duration-200',
                                     'hover:bg-teal-bright hover:text-teal-deep',
-                                    'focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-gold',
+                                    'focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-focus',
                                     isActive ? 'rounded-full text-teal-deep' : '',
                                 ].join(' ')
                             }
