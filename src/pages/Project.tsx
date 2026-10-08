@@ -31,7 +31,7 @@ export default function Project() {
 				<div className="flex flex-wrap gap-4 items-center ">
 				<nav aria-label={`${project.title} links`} className="flex gap-4">
 					{project.links.map((link) => (
-						<a key={link.label} href={link.href} target="_blank" rel="noreferrer">
+						<a key={link.label} href={link.href} target="_blank" rel="noreferrer" className="button">
 							{link.label}
 						</a>
 					))}
