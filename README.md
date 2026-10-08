@@ -5,9 +5,6 @@
 
 [HelChris portfolio](https://helchris.netlify.app/)
 
-📁 **Source code**
-
-[GitHub repository](https://github.com/HelChris/portfolio2)
 
 ---
 
