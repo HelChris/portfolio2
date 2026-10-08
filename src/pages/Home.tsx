@@ -1,4 +1,5 @@
 import { PortfolioPreview } from '../components/home/PortfoiloPreview';
+import { Contact } from '../components/home/Contact';
 import { projects } from '../config/projects';
 
 function Home() {
@@ -26,10 +27,7 @@ function Home() {
 				</ul>
 			</section>
 
-			<section id="contact" className="mb-8 min-h-80 m-4">
-				<h2 className="text-h1 mb-4">Contact</h2>
-				<p>Get in touch about a project or collaboration.</p>
-			</section>
+			<Contact />
 		</>
 	);
 }
