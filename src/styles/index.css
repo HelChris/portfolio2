@@ -68,6 +68,16 @@
 
 
 @layer components {
+        .site-header {
+            --site-logo-height: 3.5rem;
+        }
+
+        .site-logo {
+            display: block;
+            width: auto;
+            height: var(--site-logo-height);
+        }
+
         .projects-section {
             background-color: var(--color-projects-background);
         }
