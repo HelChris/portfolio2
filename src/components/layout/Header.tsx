@@ -10,9 +10,9 @@ export function Header() {
 				className="flex items-center outline-offset-4 focus-visible:outline-3 focus-visible:outline-focus"
 				to="/"
 			>
-				<picture>
+				<picture className="p-2">
 					<source media="(prefers-color-scheme: dark)" srcSet={logoDark} />
-					<img className="site-logo" src={logoLight} alt="HelChris home" className="h-15 p-2"/>
+					<img className="site-logo" src={logoLight} alt="HelChris home" />
 				</picture>
 			</Link>
 			<Navigation ariaLabel="Main navigation" />
