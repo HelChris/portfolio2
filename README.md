@@ -10,7 +10,7 @@
 
 ## About
 
-This responsive portfolio presents HelChris's front-end development work, technical skills, and selected project case studies.
+This responsive portfolio presents some of my front-end development work, technical skills, and selected project case studies.
 
 The site is built as a small React application with reusable layout, navigation, project-preview, contact, and skills components. It uses a centralized token-based theme for consistent light and dark mode styling.
 
@@ -21,7 +21,7 @@ The site is built as a small React application with reusable layout, navigation,
 - Project cards with screenshots and descriptions
 - Individual project case-study pages
 - Responsive navigation with hash-link scrolling
-- Contact links for LinkedIn, Instagram, Discord, GitHub, and homepage
+- Contact links for LinkedIn, Instagram, Discord, GitHub, and Homepage
 - Light and dark color themes
 
 ---
@@ -78,6 +78,7 @@ pnpm run lint      # run ESLint
 - `src/pages` - homepage and project case-study pages
 - `src/styles` - fonts, design tokens, and global styles
 - `src/assets/projects` - project screenshots
+- `src/assets/logo` - HelChris logo for light/dark header/footer
 - `public` - static deployment files
 
 ---
