@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Project from './pages/Project';
 
 function ScrollToHash() {
-    const { hash } = useLocation();
+    const { hash, pathname } = useLocation();
 
     useEffect(() => {
         if (!hash) {
@@ -20,7 +20,7 @@ function ScrollToHash() {
                 block: 'start',
             });
         });
-    }, [hash]);
+    }, [hash, pathname]);
 
     return null;
 }
